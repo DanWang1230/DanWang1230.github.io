@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/DanWang1230/DanWang1230.gi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[a relative link for capstone project of DS](pages/cluster_city_neighborhoods.md])
+[a relative link for capstone project of DS](pages/cluster_city_neighborhoods.md)
 
 ### Markdown
 
