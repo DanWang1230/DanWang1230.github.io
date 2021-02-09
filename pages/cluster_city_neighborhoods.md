@@ -39,7 +39,7 @@ toronto_data.head()
 5. Create maps of cities or boroughs with neighborhoods superimposed on top
 6. Use the `Foursquare API` to explore the neighborhoods and get venues
 
-![](venues.png)
+![](images_cluster_city_neighborhoods/venues.png)
 
 7. Merge the two dataframes
 
@@ -56,20 +56,20 @@ In this section, I implement k-means to cluster the neighborhoods into 5 cluster
 A pipeline is built to compare two cities or boroughs based on the features of their neighborhoods. Neighborhoods with similar venue features are clustered into the same category.
 
 Both Toronto and Manhattan
-![](Toron_manha.png)
+![](images_cluster_city_neighborhoods/Toron_manha.png)
 
 Zoom-in view of Toronto
-![](Toronto.png)
+![](images_cluster_city_neighborhoods/Toronto.png)
 
 Zoom-in view of Manhattan
-![](Manhattan.png)
+![](images_cluster_city_neighborhoods/Manhattan.png)
 
 # Discussion
 
 Based on the cluster results, we can furthermore compare different categories and get important information for business development and city planning. We can examine each cluster and determine the discriminating venue categories that distinguish each cluster. Based on the defining categories, we can then assign a name to each cluster. The neighborhoods in cluster 0 are shown in the following figure.
 
 Cluster 0
-![](cluster_0.png)
+![](images_cluster_city_neighborhoods/cluster_0.png)
 
 # Conclusion
 In conclusion, I successfully implemented a pipeline to compare two cities or boroughs based on the features of their neighborhoods. Neighborhoods with similar venue features are clustered into the same category.
