@@ -30,7 +30,7 @@ toronto_data = df_new[df_new['Borough'].str.contains('Toronto')].reset_index(dro
 
 toronto_data.head()
 ```
-![](toronto_raw.png)
+![](images_cluster_city_neighborhoods/toronto_raw.png)
 
 4. Use `geopy` library to get the latitude and longitude values
 
