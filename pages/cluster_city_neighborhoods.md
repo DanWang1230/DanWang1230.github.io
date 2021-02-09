@@ -1,13 +1,13 @@
 [comment]:<Created by Dan Wang (daw1230@uw.edu) at 2-8-2020>
 # Comparing Two Cities by Venue Features
 
-# Introduction: Business Problem
+## Introduction: Business Problem
 
 In the project, we will try to cluster similar neighborhoods in two cities Toronto and New York City. Specifically, this report will be targeted to stakeholders interested in deploying business correspondingly in the two cities.
 
 We will use our data science powers to consider various venue features when implementing the clustering algorithm.
 
-# Data
+## Data
 
 Based on our definition of the problems, the following data resources will be needed:
 
@@ -17,9 +17,9 @@ Based on our definition of the problems, the following data resources will be ne
 
 - Especially, we focus on the Manhattan Borough of New York City.
 
-# Methodology
+## Methodology
 
-## Data analysis
+### Data analysis
 
 After getting loaded, the datasets for the NYC and Toronto are processed individually first and then merged to fit into the K-means clustering in the next section. The procedures go as follows:
 1. Load dataset
@@ -48,11 +48,11 @@ toronto_data.head()
 merge_grouped = toronto_grouped.append(manhattan_grouped).fillna(0).reset_index()
 ```
 
-## K-means clustering
+### K-means clustering
 
 In this section, I implement k-means to cluster the neighborhoods into 5 clusters. First, I create a new dataframe that includes the cluster as well as the top 10 venues for each neighborhood. Then I visualize the resulting clusters.
 
-# Results 
+## Results 
 
 A pipeline is built to compare two cities or boroughs based on the features of their neighborhoods. Neighborhoods with similar venue features are clustered into the same category.
 
@@ -65,12 +65,12 @@ Zoom-in view of Toronto
 Zoom-in view of Manhattan
 ![](images_cluster_city_neighborhoods/Manhattan.png)
 
-# Discussion
+## Discussion
 
 Based on the cluster results, we can furthermore compare different categories and get important information for business development and city planning. We can examine each cluster and determine the discriminating venue categories that distinguish each cluster. Based on the defining categories, we can then assign a name to each cluster. The neighborhoods in cluster 0 are shown in the following figure.
 
 Cluster 0
 ![](images_cluster_city_neighborhoods/cluster_0.png)
 
-# Conclusion
+## Conclusion
 In conclusion, I successfully implemented a pipeline to compare two cities or boroughs based on the features of their neighborhoods. Neighborhoods with similar venue features are clustered into the same category.
