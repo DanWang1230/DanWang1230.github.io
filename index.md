@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Dan Wang's home
 
 You can use the [editor on GitHub](https://github.com/DanWang1230/DanWang1230.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
