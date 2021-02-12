@@ -2,12 +2,18 @@
 
 [a relative link for capstone project of DS](pages/cluster_city_neighborhoods.md)
 
-# Education
+### Education
 
 
 
-# Projects
+### Projects
+
+#### Mobile Robotics
 
 
 
-# Selected Publications
+#### Self-driving Car
+
+
+
+### Selected Publications
