@@ -3,6 +3,6 @@ theme: jekyll-theme-minimal
 title: The title of your site
 description: A short description of your site's purpose
 
-# logo: [Location of the logo]
+logo: /img/Avatar_DanWang.jpg
 show_downloads: true
 google_analytics:
