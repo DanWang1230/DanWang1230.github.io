@@ -3,6 +3,6 @@ theme: jekyll-theme-minimal
 title: Hi there!
 description: My name is Dan Wang. I'm a PhD student majored in mobile robotics and machine learning. It's nice to meet you.
 
-logo: /img/circle-cropped.jpg
+logo: /img/circle-cropped.png
 show_downloads: true
 google_analytics:
