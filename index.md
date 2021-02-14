@@ -24,9 +24,13 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 ### Mobile Robotics and Self-driving Car
 
 CSE571 AI Based Mobile Robotics (UW)
+
 Self-driving Car Specialization (Coursera)
+
 Self-driving Car Specialization (Udacity)
+
 Intro to Self-Driving Cars Nanodegree (Udacity)
+
 
 ### Machine Learning
 
