@@ -11,7 +11,7 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ## Projects
 
-### Mobile Robotics
+### Mobile Robotics and Self-driving Car
 
 
 
@@ -21,9 +21,19 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ## Courses
 
+### Mobile Robotics and Self-driving Car
+
+CSE571 AI Based Mobile Robotics (UW)
+Self-driving Car Specialization (Coursera)
+Self-driving Car Specialization (Udacity)
+Intro to Self-Driving Cars Nanodegree (Udacity)
+
+### Machine Learning
 
 
 ## Selected Publications
+
+My full publication list is shared here.
 
 **Wang, Dan**, and Xu Chen. "Closed-Loop High-Fidelity Simulation Integrating Finite Element Modeling with Feedback Controls in Additive Manufacturing." *Journal of Dynamic Systems, Measurement, and Control* 143.2 (2021).
 
@@ -33,6 +43,6 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 **Wang, Dan**, and Xu Chen. "A multirate repetitive control for fractional-order servos in laser-based additive manufacturing." *2018 Annual American Control Conference (ACC)*. IEEE, 2018.
 
-**Wang, Dan**, and Xu Chen. "Synthesis and analysis of multirate repetitive control for fractional-order periodic disturbance rejection in powder bed fusion." *International Symposium on Flexible Automation*. IEEE, 2018. Best Paper Award
+**Wang, Dan**, and Xu Chen. "Synthesis and analysis of multirate repetitive control for fractional-order periodic disturbance rejection in powder bed fusion." *International Symposium on Flexible Automation*. IEEE, 2018. **Best Paper Award**
 
 **Wang, Dan**, Masayoshi Tomizuka, and Xu Chen. "Spectral distribution and implications of feedback regulation beyond Nyquist frequency." *International Symposium on Flexible Automation 2016.*
