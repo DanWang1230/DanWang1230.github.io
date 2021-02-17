@@ -25,7 +25,7 @@
 
 - **Wang, Dan**, and Xu Chen. Closed-loop feedback for additive manufacturing simulation. PCT/US20/60465
 - **Wang, Dan**, Wenzeng Zhang, et al. Travel mechanism for carrier in reagent dispenser. CN104097910B, Aug 24, 2016.
-- Wang, Dan, Wenzeng Zhang, et al. Double-screw elevating and separating mechanism for close-packed microplates in stacker of reagent dispenser. CN103787015B, Apr 13, 2016.
+- **Wang, Dan**, Wenzeng Zhang, et al. Double-screw elevating and separating mechanism for close-packed microplates in stacker of reagent dispenser. CN103787015B, Apr 13, 2016.
 - **Wang, Dan**, Wenzeng Zhang, et al. Novel stacker system with inclined belt-drive for reagent dispenser. CN103818674B, Mar 30, 2016.
 - **Wang, Dan**, Wenzeng Zhang, et al. Elevating and separating system with vertical belt-drive for close-packed microplates. CN103818673B, Jun 15, 2016.
 - **Wang, Dan**, Wenzeng Zhang, et al. Tendon rope-ratchet connection mechanism for doffing and donning machine. CN103696058B, May 18, 2016.
