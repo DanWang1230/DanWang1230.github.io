@@ -37,7 +37,7 @@ Intro to Self-Driving Cars Nanodegree (Udacity)
 
 ## Selected Publications
 
-My full publication list is shared here.
+Here is [my full publication list](pages/fullpub.md).
 
 **Wang, Dan**, and Xu Chen. "Closed-Loop High-Fidelity Simulation Integrating Finite Element Modeling with Feedback Controls in Additive Manufacturing." *Journal of Dynamic Systems, Measurement, and Control* 143.2 (2021).
 
