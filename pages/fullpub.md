@@ -11,8 +11,8 @@
 
 ## Conference papers
 
-- **Wang, Dan**, and Xu Chen. "Closed-loop Simulation Integrating Finite Element Modeling with Feedback Controls in Powder Bed Fusion Additive Manufacturing." *International Symposium on Flexible Automation*. IEEE, 2020. Best Paper Award Finalist.
-- **Wang, Dan**, Xinyu Zhao, and Xu Chen. "New Hammerstein Modeling and Analysis for Controlling Melt Pool Width in Powder Bed Fusion Additive Manufacturing." *ASME 2020 Dynamic Systems and Control Conference*. (Accepted)
+- **Wang, Dan**, and Xu Chen. "Closed-loop Simulation Integrating Finite Element Modeling with Feedback Controls in Powder Bed Fusion Additive Manufacturing." *International Symposium on Flexible Automation*. IEEE, 2020. **Best Paper Award Finalist**
+- **Wang, Dan**, Xinyu Zhao, and Xu Chen. "New Hammerstein Modeling and Analysis for Controlling Melt Pool Width in Powder Bed Fusion Additive Manufacturing." *ASME 2020 Dynamic Systems and Control Conference*.
 - **Wang, Dan**, Tianyu Jiang, and Xu Chen. "Control-Oriented Modeling and Repetitive Control in In-Layer and Cross-Layer Thermal Interactions in Selective Laser Sintering." *ASME 2019 Dynamic Systems and Control Conference*.
 - **Wang, Dan**, and Xu Chen. "Synthesis and Analysis of Multirate Repetitive Control for Fractional-order Periodic Disturbance Rejection in Powder Bed Fusion." *International Symposium on Flexible Automation*. IEEE, 2018. **Best Paper Award**
 - **Wang, Dan**, and Xu Chen. "A Multirate Repetitive Control for Fractional-order Servos in Laser-based Additive Manufacturing." *2018 Annual American Control Conference (ACC)*. IEEE, 2018.
