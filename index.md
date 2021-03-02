@@ -32,7 +32,7 @@ Self-driving Car Specialization (Udacity)
 Intro to Self-Driving Cars Nanodegree (Udacity)
 
 
-### Machine Learning
+### Machine Learning and Statistcs
 
 
 ## Selected Publications
