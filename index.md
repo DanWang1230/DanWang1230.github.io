@@ -13,12 +13,12 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ### Mobile Robotics and Self-driving Car
 
-[Finding Lane Lines](pages/cluster_city_neighborhoods.md)
+[Finding Lane Lines](pages/Finding_lane_lines.md)
 
 
 ### Machine Learning
 
-[a relative link for capstone project of DS](pages/Finding_lane_lines.md)
+[Clustering City Neighborhoods](pages/cluster_city_neighborhoods.md)
 
 ## Courses
 
