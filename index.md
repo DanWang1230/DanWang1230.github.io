@@ -14,6 +14,7 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 ### Mobile Robotics and Self-driving Car
 
 [Finding Lane Lines](pages/finding_lane_lines.md) (Canny edge detection, Hough transform, OpenCV)
+[Advanced Lane Finding](pages/advanced_lane_finding.md)
 
 ### Machine Learning
 
