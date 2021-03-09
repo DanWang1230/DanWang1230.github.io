@@ -129,7 +129,7 @@ I implemented this step in the 12th code cell of the IPython notebook.  Here is 
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-The video is located at test_videos_output/project_video_dw.mp4. Here's a [link to the file.](https://github.com/DanWang1230/DanWang1230.github.io/blob/master/pages/images_advanced_finding_lane_lines/project_video_dw.mp4)
+The video is located at test_videos_output/project_video_dw.mp4. Here's a [link to the file.](https://youtu.be/BisoW6Km2jo)
 
 ---
 
