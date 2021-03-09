@@ -131,12 +131,6 @@ I implemented this step in the 12th code cell of the IPython notebook.  Here is 
 
 The video is located at test_videos_output/project_video_dw.mp4. Here's a [link to the file.](https://github.com/DanWang1230/DanWang1230.github.io/blob/master/pages/images_advanced_finding_lane_lines/project_video_dw.mp4)
 
-![](./images_advanced_finding_lane_lines/project_video_dw.mp4)
-
-<video width="320" height="240" controls>
-  <source src="./images_advanced_finding_lane_lines/project_video_dw.mp4" type="video/mp4">
-</video>
-
 ---
 
 ### Discussion
