@@ -3,7 +3,7 @@
 
 ## Introduction: Business Problem
 
-In the project, we will try to cluster similar neighborhoods in two cities Toronto and New York City. Specifically, this report will be targeted to stakeholders interested in deploying business correspondingly in the two cities.
+In the project, I'm clustering similar neighborhoods in two cities Toronto and New York City. Specifically, this report will be targeted to stakeholders interested in deploying business correspondingly in the two cities.
 
 We will use our data science powers to consider various venue features when implementing the clustering algorithm.
 
