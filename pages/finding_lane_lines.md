@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## The goals / steps of this project are the following:
+## The goals/steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on the work in this written report
 * The GitHub repo for this project can be found [here](https://github.com/DanWang1230/Finding_lane_lines).
@@ -25,13 +25,13 @@ My pipeline consists of the following steps. Here, I took solidWhiteCurve.jpg as
 ![alt text][image4]
 First, I converted the images to grayscale.
 ![alt text][image5]
-Then I used Guassian smoothing and Canny edge detection to find the edges.
+Then I used Gaussian smoothing and Canny edge detection to find the edges.
 ![alt text][image6]
 After that, I created a mask to mask out the regions that are not of interest.
 ![alt text][image7]
 Then I applied the Hough transform to find the line information and drew the lines on the original image.
 ![alt text][image1]
-Based on the lines obtained from the Hough transform, I assigned the lines to two sets: left lane and right lane, taking into consideration the slopes of the lines. In order to draw a single line on the left and right lanes, I respectively found the average of the two sets. Below is the result after this averaging step.
+Based on the lines obtained from the Hough transform, I assigned the lines to two sets: left lane and right lane, taking into consideration the slopes of the lines. In order to draw a single line on each of the left and right lanes, I respectively found the average of the two sets. Below is the result after this averaging step.
 ![alt text][image2]
 Then I extrapolated and extended the two lanes to the bottom and top limits.
 ![alt text][image3]
@@ -40,7 +40,7 @@ Note that I didn't modify the draw_lines() function but instead modified the "ma
 
 * The parameters need to be tuned carefully, which is time-consuming.
 * The method only identifies lines and will not work with curves.
-* The method also will not work when two lanes are merging into one wider lane since we will lost the information of one lane with the fixed mask.
+* The method also will not work when two lanes are merging into one wider lane since we will lose the information of one lane with the fixed mask.
 
 
 ### 3. Suggest possible improvements to your pipeline
