@@ -5,7 +5,7 @@ Seattle, Washington sport data scraped from Wikipedia
 
 ## Github repo
 
-https://github.com/DanWang1230/Seattle_sports
+<https://github.com/DanWang1230/Seattle_sports>
 
 ## Research questions
 
