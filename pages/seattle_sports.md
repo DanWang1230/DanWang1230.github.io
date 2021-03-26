@@ -26,6 +26,9 @@ Seattle, Washington sport data scraped from Wikipedia
 
 * A 10-year moving average for Seahawks and Mariners was plotted to help the reader identify any major trends in the team’s win percentages. And a 3-year moving average is chosen for the two younger teams Sounders FC and Storm.
 
+![img1](images_seattle_sports/seahawks_mariners.png)
+![img1](images_seattle_sports/sounders_storm.png)
+
 ## Results and Conclusions
 
 * The plot indicates the years of high win percentage for Seahawks are around 1990 and 2007, with periods of decline following both high points.
@@ -35,6 +38,3 @@ Seattle, Washington sport data scraped from Wikipedia
 * The Storm's win percentage reaches a peak at 2010 and keeps increasing in recent years.
 
 * The plot shows that the win percentage of Sounder FC is relative stable and stays in between 0.554 to 0.657.
-
-![img1](images_seattle_sports/seahawks_mariners.png)
-![img1](images_seattle_sports/sounders_storm.png)
