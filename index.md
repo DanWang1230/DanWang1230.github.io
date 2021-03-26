@@ -16,9 +16,11 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 [Finding Lane Lines](pages/finding_lane_lines.md) (Canny edge detection, Hough transform, OpenCV)
 [Advanced Lane Finding](pages/advanced_lane_finding.md)
 
-### Machine Learning
+### Data Science and Machine Learning
 
 [Clustering City Neighborhoods](pages/cluster_city_neighborhoods.md)
+
+[Seattle Sports: Seahawks and Mariners](pages/seattle_sports.md)
 
 ## Courses
 
