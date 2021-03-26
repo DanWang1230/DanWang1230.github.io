@@ -1,4 +1,6 @@
 # Seattle Sports
+![img1](images_seattle_sports/seahawks_mariners.png)
+
 ## Datasets
 
 Seattle, Washington sport data scraped from Wikipedia
@@ -17,8 +19,7 @@ Seattle, Washington sport data scraped from Wikipedia
 
 ## Methods
 
-* This project was concerned with answering the question of how the win percentages of the four major Seattle sports teams (Seahawks and Mariners) have changed.
-
+* This project was concerned with answering the question of how the win percentages of the four major Seattle sports teams (Seahawks, Mariners, Sounders FC, and Storm) have changed.
 * Wikipedia was scraped for data concerning wins and losses by season for each team. 
 
 * Data cleaning has been conducted.
