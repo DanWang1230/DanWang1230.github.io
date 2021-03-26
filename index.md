@@ -21,7 +21,7 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 [Clustering City Neighborhoods](pages/cluster_city_neighborhoods.md)
 
-[Seattle Sports: Seahawks and Mariners](pages/seattle_sports.md)
+[Seattle Sports: Seahawks, Mariners, Sounders FC, and Storm](pages/seattle_sports.md)
 
 ## Courses
 
