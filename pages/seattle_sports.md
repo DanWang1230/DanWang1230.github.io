@@ -9,19 +9,21 @@ Seattle, Washington sport data scraped from Wikipedia
 
 ## Research questions
 
-* How have the win percentages for Seahawks changed over the last forty years?
-* How have the win percentages for Mariners changed over the last forty years?
-* Compare the win percentages of the two sport teams at Seattle
+* How have the win percentages for Seahawks and Mariners changed over the last forty years?
+
+* How have the win percentages for Sounders FC changed over the last ten years?
+
+* How have the win percentages for Storm changed over the last twenty years?
 
 ## Methods
 
-* This project was concerned with answering the question of how the win percentages of the two major Seattle sports teams (Seahawks and Mariners) have changed over the last 40 years.
+* This project was concerned with answering the question of how the win percentages of the four major Seattle sports teams (Seahawks and Mariners) have changed.
 
 * Wikipedia was scraped for data concerning wins and losses by season for each team. 
 
 * Data cleaning has been conducted.
 
-* A 10-year moving average was plotted to help the reader identify any major trends in the team’s win percentages.
+* A 10-year moving average for Seahawks and Mariners was plotted to help the reader identify any major trends in the team’s win percentages. And a 3-year moving average is chosen for the two younger teams Sounders FC and Storm.
 
 ## Results and Conclusions
 
@@ -29,4 +31,9 @@ Seattle, Washington sport data scraped from Wikipedia
 
 * The Mariner’s win percentage shows a continuing increase up to 2003 and stays high from 2003 to 2010.
 
-![img1](images_seattle_sports/assignment4_result.png)
+* The Storm's win percentage reaches a peak at 2010 and keeps increasing in recent years.
+
+* The plot shows that the win percentage of Sounder FC is relative stable and stays in between 0.554 to 0.657.
+
+![img1](images_seattle_sports/seahawks_mariners.png)
+![img1](images_seattle_sports/sounders_storm.png)
