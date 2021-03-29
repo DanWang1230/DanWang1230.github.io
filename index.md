@@ -17,7 +17,7 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 [Advanced Lane Finding](pages/advanced_lane_finding.md)
 
-[Behavioral Cloning](behavioral_cloning)
+[Behavioral Cloning](pages/behavioral_cloning)
 
 ### Data Science and Machine Learning
 
