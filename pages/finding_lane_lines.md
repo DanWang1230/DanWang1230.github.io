@@ -36,14 +36,15 @@ Based on the lines obtained from the Hough transform, I assigned the lines to tw
 Then I extrapolated and extended the two lanes to the bottom and top limits.
 ![alt text][image3]
 Note that I didn't modify the draw_lines() function but instead modified the "main" file directly.
-### 2. Identify potential shortcomings with your current pipeline
+
+### 2. Identify potential shortcomings with current pipeline
 
 * The parameters need to be tuned carefully, which is time-consuming.
 * The method only identifies lines and will not work with curves.
 * The method also will not work when two lanes are merging into one wider lane since we will lose the information of one lane with the fixed mask.
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Suggest possible improvements
 
 * One possible solution is to use not only line detection but also curve detection.
 * Using masks with adaptive sizes instead of a fixed-size mask
