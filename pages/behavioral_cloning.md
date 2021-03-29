@@ -1,6 +1,7 @@
 # Behavioral_Cloning
 
 The goals/steps of this project are the following:
+* The GitHub repo for this project can be found [here](https://github.com/DanWang1230/Behavioral_Cloning).
 * Use the simulator to collect data of good driving behavior
 * Build a convolution neural network in Keras that predicts steering angles from images
 * Train and validate the model with a training and validation set
