@@ -2,7 +2,7 @@
 
 ## The goals/steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
-* Reflect on the work in this written report
+* Discussion
 * The GitHub repo for this project can be found [here](https://github.com/DanWang1230/Finding_lane_lines).
 
 [//]: # (Image References)
