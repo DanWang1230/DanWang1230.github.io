@@ -19,6 +19,8 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 [Behavioral Cloning](pages/behavioral_cloning.md)
 
+[Traffic Sign Classifier](pages/traffic_sign_classifier.md)
+
 ### Data Science and Machine Learning
 
 [Clustering City Neighborhoods](pages/cluster_city_neighborhoods.md)
