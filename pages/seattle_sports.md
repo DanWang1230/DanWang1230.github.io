@@ -1,5 +1,4 @@
 # Seattle Sports
-![img1](images_seattle_sports/seahawks_mariners.png)
 
 ## Datasets
 
