@@ -11,8 +11,6 @@ The goals/steps of this project are the following:
 
 The GitHub repo for this project can found [here](https://github.com/DanWang1230/Traffic_Sign_Classifier).
 
-The dataset is from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). The project is from the self-driving car nanodegree in Udacity. 
-
 [//]: # (Image References)
 
 [image1]: ./images_traffic_sign_classifier/original_image.jpg
@@ -74,10 +72,6 @@ The image data should be normalized so that the data has mean zero and equal var
 
 A LeNet-5 architecture is chosen for this task. Using the original LeNet-5, I achieved high accuracy on the training set but low accuracy on the validation set (around 0.89). To solve the overfitting problem, I added dropout layers after the fully connected layers.
 
-In CNN, **2D convolution layer** (conv2D) is the most common type of convolution. A filter (or a kernel) in a conv2D layer “slides” over the 2D input data, performing an elementwise multiplication. As a result, it will be summing up the results into a single output pixel. The kernel will perform the same operation for every location it slides over, transforming a 2D matrix of features into a different 2D matrix of features.
-
-**max pooling** operation is used to reduce the size of the input and allows the neural network to focus on only the most important elements. Max pooling does this by only retaining the maximum value for each filtered area and removing the remaining values.
-
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -99,10 +93,6 @@ In CNN, **2D convolution layer** (conv2D) is the most common type of convolution
 | Dropout				|												|
 | Softmax				|      									        | 
 
-
-**Dropout** refers to ignoring units (i.e. neurons) during the training phase of a certain set of neurons which is chosen at random. By “ignoring”, these units are not considered during a particular forward or backward pass.
-
-**ReLU** and **Softmax** are nonlinear activation functions. ReLU has output 0 if the input is less than 0. If the input is greater than 0, the output is equal to the input. The softmax function is often used in the final layer of a neural network-based classifier. Softmax maps our output to a [0,1] range but also maps each output in such a way that the total sum is 1. The output of Softmax is therefore a probability distribution.
 
 #### 3. Model training
 
