@@ -1,14 +1,17 @@
 # **Traffic Sign Recognition** 
 
 The goals/steps of this project are the following:
-* The GitHub repo for this project can found [here](https://github.com/DanWang1230/Traffic_Sign_Classifier)
 * Load the data set of German traffic signs
 * Explore, summarize and visualize the data set
 * Design, train, and test a model architecture
 * Use the model to make predictions on new images
 * Analyze the softmax probabilities of the new images
 
-The project is from the self-driving car nanodegree in Udacity. So are datasets.
+The GitHub repo for this project can found [here](https://github.com/DanWang1230/Traffic_Sign_Classifier).
+
+The dataset is from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).
+
+The project is from the self-driving car nanodegree in Udacity. 
 
 [//]: # (Image References)
 
@@ -23,9 +26,21 @@ The project is from the self-driving car nanodegree in Udacity. So are datasets.
 
 
 ---
-### Data Set Summary & Exploration
+### Dataset Summary & Exploration
 
-#### 1. Basic summary of the data set
+#### 1. Dataset
+
+The train, validataion, and test datasets are pickled data that is a dictionary with 4 key/value pairs:
+
+- `'features'` is a 4D array containing raw pixel data of the traffic sign images, (num examples, width, height, channels).
+- `'labels'` is a 1D array containing the label/class id of the traffic sign. The file `signnames.csv` contains id -> name mappings for each id.
+- `'sizes'` is a list containing tuples, (width, height) representing the original width and height the image.
+- `'coords'` is a list containing tuples, (x1, y1, x2, y2) representing coordinates of a bounding box around the sign in the image. These coordinates assume the original image. The pickled data contains resized verisons (32 by 32) of these images
+
+
+#### 2. Basic summary of the data set
+
+Usiing `python` and `numpy` methods to calculate the data summary:
 
 * The size of the training set is 34799
 * The size of the validation set is 4410
@@ -34,26 +49,27 @@ The project is from the self-driving car nanodegree in Udacity. So are datasets.
 * The number of unique classes/labels in the data set is 43
 * No abnormalities is identified
 
-#### 2. Visualization of the dataset.
+#### 3. Visualization of the dataset.
+
+It can be interesting to look at the distribution of classes in the training, validation and test set. We need to check if the distribution is the same and if there are more examples of some classes than others. The `matplotlib` library is a great resource for doing visualizations in Python.
 
 This bar chart shows how the data is distributed: blue for the training data set and yellow for the validation.
 
 ![alt text][image3]
 
+---
+
 ### Design and Test a Model Architecture
+
+I designed and implemented a deep learning model that learns to recognize traffic signs on the German Traffic Sign Dataset. After looking into some CNN tutorials, the LeNet-5 implementation is a solid starting point. From there, I have changed the architecture of LeNet-5 to get better performance.
 
 #### 1. Image data preprocessing
 
-At the first step, I decided to convert the images to grayscale because color is not an important feature in the project.
-
-Here is an example of a traffic sign image before and after grayscaling.
+At the first step, I decided to convert the images to grayscale because color is not an important feature in the project. Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image1] ![alt text][image2]
 
-At the last step, I normalized the image data, so the data has zero mean and equal variance and the position of the image doesn't matter.
-
-To increase the accuracy of the validation set, I decided to change the architecture of the LeNet network from the lecture.
-
+The image data should be normalized so that the data has mean zero and equal variance. For image data, I use a quick way (pixel - 128)/ 128 to approximately normalize the data.
 
 #### 2. Model architecture
 
@@ -84,13 +100,19 @@ A LeNet-5 architecture is chosen for this task. Using the original LeNet-5, I ac
 
 To train the model, I used the Adam optimizer, the batch size of 128, 50 epochs, the learning rate of 0.001, and the keep probability of 0.5 for dropout.
 
+A validation set is used to assess how well the model is performing. A low accuracy on the training and validation sets imply underfitting. A high accuracy on the training set but low accuracy on the validation set implies overfitting.
+
 #### 4. Performance
 
 * training set accuracy of 0.998
 * validation set accuracy of 0.967 
 * test set accuracy of 0.947
 
+---
+
 ### Test the Model on New Images
+
+To gain more insight into how the model is working, I used five pictures of German traffic signs from the web and used my model to predict the traffic sign type. The `signnames.csv` file is useful as it contains mappings from the class id (integer) to the actual sign name.
 
 #### 1. Choose five German traffic signs found on the web
 
@@ -117,10 +139,14 @@ The model correctly guessed all the five traffic signs.
 
 #### 3. Determine how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction.
 
-The code for making predictions on my final model is located in the last two cells of the notebook.
+The code for making predictions on my final model is located in the last two cells of the notebook. For each of the new images, I printed out the model's softmax probabilities to show the certainty of the model's predictions (limit the output to the top 5 probabilities for each image). `tf.nn.top_k` is helpful here. `tf.nn.top_k` returns the values and indices (class ids) of the top k predictions. So if k=3, for each sign, it'll return the 3 largest probabilities (out of 43) and the correspoding class ids.
 
 For the first image, the model is 100% sure that this is a traffic signal(probability of 1), and the image indeed is a traffic signal. And the other four softmax probabilities are close to 0. It is also the case for the other four new images I obtained from the web.
 
+---
+
 ### Discussion
 
-CNN in machine learning is very good at image classification problems. This is more and more proven to be true in different applications. Compared with conventional computer vision methods, CNN shows its better adaptability and performance. Besides the LeNet-5 used in this project, other CNN architectures are worth trying for different tasks.
+* Pay attention to model underfitting and overfitting. Validataion set is used to check underfitting and overfitting. In this project, I used dropout method to reduce overfitting. There are many other methods as well, such as the L2 regularization. 
+
+* CNN in machine learning is very good at image classification problems. This is more and more proven to be true in different applications. Compared with conventional computer vision methods, CNN shows its better adaptability and performance. Besides the LeNet-5 used in this project, other CNN architectures are worth trying for different tasks.
