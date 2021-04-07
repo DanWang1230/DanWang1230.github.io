@@ -1,6 +1,6 @@
 # **Traffic Sign Recognition** 
 
- In this project, I used deep neural networks and convolutional neural networks to classify traffic signs. Specifically, you'll train a model to classify German traffic signs.
+ In this project, I used deep neural networks and convolutional neural networks to classify traffic signs. Specifically, I trained a model to classify the German traffic signs.
 
 The goals/steps of this project are the following:
 * Load the data set of German traffic signs
@@ -32,10 +32,10 @@ The dataset is from the [German Traffic Sign Dataset](http://benchmark.ini.rub.d
 
 The train, validation, and test datasets are pickled data that is a dictionary with 4 key/value pairs:
 
-- `'features'` is a 4D array containing raw pixel data of the traffic sign images, (num examples, width, height, channels).
-- `'labels'` is a 1D array containing the label/class id of the traffic sign. The file `signnames.csv` contains id -> name mappings for each id.
-- `'sizes'` is a list containing tuples, (width, height) representing the original width and height of the image.
-- `'coords'` is a list containing tuples, (x1, y1, x2, y2) representing coordinates of a bounding box around the sign in the image. These coordinates assume the original image. The pickled data contains resized versions (32 by 32) of these images
+- `'features'` is a 4D array containing raw pixel data of the traffic sign images: (num examples, width, height, channels).
+- `'labels'` is a 1D array containing the label/class id of the traffic sign. The file `signnames.csv` contains the id-to-name mappings for each id.
+- `'sizes'` is a list containing tuples. (width, height) representing the original width and height of the image.
+- `'coords'` is a list containing tuples. (x1, y1, x2, y2) representing coordinates of a bounding box around the sign in the image. These coordinates assume the original image size. The pickled data contains resized versions (32 by 32) of these images.
 
 #### 2. Basic summary of the data set
 
@@ -50,7 +50,7 @@ I used `python` and `numpy` methods to calculate the data summary:
 
 #### 3. Visualization of the dataset.
 
-It can be interesting to look at the distribution of classes in the training, validation, and test set. We need to check if the distribution is the same and if there are more examples of some classes than others. The `matplotlib` library is a great resource for doing visualizations in Python.
+It can be interesting to look at the distribution of classes in the training, validation, and test set. We need to check if the distribution is the same and if there are more examples of some classes than others. The `matplotlib` library is a great resource for doing visualizations in `python`.
 
 This bar chart shows how the data is distributed: blue for the training data set and yellow for the validation.
 
@@ -60,7 +60,7 @@ This bar chart shows how the data is distributed: blue for the training data set
 
 ### Design and Test a Model Architecture
 
-I designed and implemented a deep learning model that learns to recognize traffic signs on the German Traffic Sign Dataset. After looking into some CNN tutorials, the LeNet-5 implementation is a solid starting point. From there, I have changed the architecture of LeNet-5 to get better performance.
+I designed and implemented a deep learning model that learns to recognize traffic signs on the German Traffic Sign Dataset. After looking into some CNN tutorials and lectures, I found the LeNet-5 implementation is a solid starting point. From there, I changed the architecture of LeNet-5 to get better performance.
 
 #### 1. Image data preprocessing
 
@@ -68,13 +68,13 @@ At the first step, I decided to convert the images to grayscale because color is
 
 ![alt text][image1] ![alt text][image2]
 
-The image data should be normalized so that the data has mean zero and equal variance. For image data, I use a quick way (pixel - 128)/ 128 to approximately normalize the data.
+The image data should be normalized so that the data has mean zero and equal variance. For image data, I use a quick way (pixel - 128)/ 128 to approximately normalize all the images.
 
 #### 2. Model architecture
 
 A LeNet-5 architecture is chosen for this task. Using the original LeNet-5, I achieved high accuracy on the training set but low accuracy on the validation set (around 0.89). To solve the overfitting problem, I added dropout layers after the fully connected layers.
 
-In CNN, the most common type of convolution that is used is the **2D convolution layer** (conv2D). A filter or a kernel in a conv2D layer “slides” over the 2D input data, performing an elementwise multiplication. As a result, it will be summing up the results into a single output pixel. The kernel will perform the same operation for every location it slides over, transforming a 2D matrix of features into a different 2D matrix of features.
+In CNN, **2D convolution layer** (conv2D) is the most common type of convolution. A filter (or a kernel) in a conv2D layer “slides” over the 2D input data, performing an elementwise multiplication. As a result, it will be summing up the results into a single output pixel. The kernel will perform the same operation for every location it slides over, transforming a 2D matrix of features into a different 2D matrix of features.
 
 **max pooling** operation is used to reduce the size of the input and allows the neural network to focus on only the most important elements. Max pooling does this by only retaining the maximum value for each filtered area and removing the remaining values.
 
@@ -160,7 +160,7 @@ For the first image, the model is 100% sure that this is a traffic signal(probab
 
 * I have these strategies in mind to improve the classification model. 1) experiment with different network architectures, or just change the dimensions of the LeNet layers; 2) add regularization features like drop out or L2 regularization to make sure the network doesn't overfit the training data; 3) tune the hyperparameters; 4) improve the data pre-processing with steps like normalization and setting a zero mean; 5) augment the training data by rotating or shifting images or by changing colors
 
-* CNN in machine learning is very good at image classification problems. This is more and more proven to be true in different applications. Compared with conventional computer vision methods, CNN shows its better adaptability and performance. Besides the LeNet-5 used in this project, other CNN architectures are worth trying for different tasks.
+* CNN in machine learning is very good at image classification problems. This is more and more proven to be true throughout different applications. Compared with conventional computer vision methods, CNN shows better adaptability and performance. Besides the simple LeNet-5 used in this project, other CNN architectures are worth trying for different tasks.
 
 ---
 ### References
