@@ -1,5 +1,7 @@
 # **Traffic Sign Recognition** 
 
+ In this project, I used deep neural networks and convolutional neural networks to classify traffic signs. Specifically, you'll train a model to classify German traffic signs.
+
 The goals/steps of this project are the following:
 * Load the data set of German traffic signs
 * Explore, summarize and visualize the data set
@@ -9,9 +11,7 @@ The goals/steps of this project are the following:
 
 The GitHub repo for this project can found [here](https://github.com/DanWang1230/Traffic_Sign_Classifier).
 
-The dataset is from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset).
-
-The project is from the self-driving car nanodegree in Udacity. 
+The dataset is from the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). The project is from the self-driving car nanodegree in Udacity. 
 
 [//]: # (Image References)
 
@@ -30,28 +30,27 @@ The project is from the self-driving car nanodegree in Udacity.
 
 #### 1. Dataset
 
-The train, validataion, and test datasets are pickled data that is a dictionary with 4 key/value pairs:
+The train, validation, and test datasets are pickled data that is a dictionary with 4 key/value pairs:
 
 - `'features'` is a 4D array containing raw pixel data of the traffic sign images, (num examples, width, height, channels).
 - `'labels'` is a 1D array containing the label/class id of the traffic sign. The file `signnames.csv` contains id -> name mappings for each id.
-- `'sizes'` is a list containing tuples, (width, height) representing the original width and height the image.
-- `'coords'` is a list containing tuples, (x1, y1, x2, y2) representing coordinates of a bounding box around the sign in the image. These coordinates assume the original image. The pickled data contains resized verisons (32 by 32) of these images
-
+- `'sizes'` is a list containing tuples, (width, height) representing the original width and height of the image.
+- `'coords'` is a list containing tuples, (x1, y1, x2, y2) representing coordinates of a bounding box around the sign in the image. These coordinates assume the original image. The pickled data contains resized versions (32 by 32) of these images
 
 #### 2. Basic summary of the data set
 
-Usiing `python` and `numpy` methods to calculate the data summary:
+I used `python` and `numpy` methods to calculate the data summary:
 
-* The size of the training set is 34799
-* The size of the validation set is 4410
-* The size of the test set is 12630
-* The shape of a traffic sign image is (32, 32, 3)
-* The number of unique classes/labels in the data set is 43
-* No abnormalities is identified
+* The size of the training set is 34799.
+* The size of the validation set is 4410.
+* The size of the test set is 12630.
+* The shape of a traffic sign image is (32, 32, 3).
+* The number of unique classes/labels in the data set is 43.
+* No abnormalities are identified.
 
 #### 3. Visualization of the dataset.
 
-It can be interesting to look at the distribution of classes in the training, validation and test set. We need to check if the distribution is the same and if there are more examples of some classes than others. The `matplotlib` library is a great resource for doing visualizations in Python.
+It can be interesting to look at the distribution of classes in the training, validation, and test set. We need to check if the distribution is the same and if there are more examples of some classes than others. The `matplotlib` library is a great resource for doing visualizations in Python.
 
 This bar chart shows how the data is distributed: blue for the training data set and yellow for the validation.
 
@@ -73,7 +72,12 @@ The image data should be normalized so that the data has mean zero and equal var
 
 #### 2. Model architecture
 
-A LeNet-5 architecture is chosen for this task. Using the original LeNet-5, I achieved high accuracy on the training set but low accuracy on the validation set (around 0.89). To solve the overfitting problem, I added dropout layers after the fully connected layers. 
+A LeNet-5 architecture is chosen for this task. Using the original LeNet-5, I achieved high accuracy on the training set but low accuracy on the validation set (around 0.89). To solve the overfitting problem, I added dropout layers after the fully connected layers.
+
+In CNN, the most common type of convolution that is used is the **2D convolution layer** (conv2D). A filter or a kernel in a conv2D layer “slides” over the 2D input data, performing an elementwise multiplication. As a result, it will be summing up the results into a single output pixel. The kernel will perform the same operation for every location it slides over, transforming a 2D matrix of features into a different 2D matrix of features.
+
+**max pooling** operation is used to reduce the size of the input and allows the neural network to focus on only the most important elements. Max pooling does this by only retaining the maximum value for each filtered area and removing the remaining values.
+
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -96,13 +100,19 @@ A LeNet-5 architecture is chosen for this task. Using the original LeNet-5, I ac
 | Softmax				|      									        | 
 
 
+**Dropout** refers to ignoring units (i.e. neurons) during the training phase of a certain set of neurons which is chosen at random. By “ignoring”, these units are not considered during a particular forward or backward pass.
+
+**ReLU** and **Softmax** are nonlinear activation functions. ReLU has output 0 if the input is less than 0. If the input is greater than 0, the output is equal to the input. The softmax function is often used in the final layer of a neural network-based classifier. Softmax maps our output to a [0,1] range but also maps each output in such a way that the total sum is 1. The output of Softmax is therefore a probability distribution.
+
 #### 3. Model training
 
 To train the model, I used the Adam optimizer, the batch size of 128, 50 epochs, the learning rate of 0.001, and the keep probability of 0.5 for dropout.
 
-A validation set is used to assess how well the model is performing. A low accuracy on the training and validation sets imply underfitting. A high accuracy on the training set but low accuracy on the validation set implies overfitting.
+A validation set is used to assess how well the model is performing. A low accuracy on the training and validation sets implies underfitting. A high accuracy on the training set but low accuracy on the validation set implies overfitting.
 
 #### 4. Performance
+
+Here, I used accuracy as the metric for evaluating the model performance. The definition for accuracy is the number of correctly predicted examples divided by the total number of the examples.
 
 * training set accuracy of 0.998
 * validation set accuracy of 0.967 
@@ -121,9 +131,9 @@ Here are five German traffic signs that I found on the web after resizing and gr
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
-They all are under well lighting conditions and pretty clear and should not be difficult to classify.
+They all are under well-lighting conditions and pretty clear and should not be difficult to classify.
 
-#### 2. Model's predictions on new traffic signs
+#### 2. Model predictions on new traffic signs
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
@@ -139,14 +149,25 @@ The model correctly guessed all the five traffic signs.
 
 #### 3. Determine how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction.
 
-The code for making predictions on my final model is located in the last two cells of the notebook. For each of the new images, I printed out the model's softmax probabilities to show the certainty of the model's predictions (limit the output to the top 5 probabilities for each image). `tf.nn.top_k` is helpful here. `tf.nn.top_k` returns the values and indices (class ids) of the top k predictions. So if k=3, for each sign, it'll return the 3 largest probabilities (out of 43) and the correspoding class ids.
+The code for making predictions on my final model is located in the last two cells of the notebook. For each of the new images, I printed out the model's softmax probabilities to show the certainty of the model's predictions (limit the output to the top 5 probabilities for each image). `tf.nn.top_k` is helpful here. `tf.nn.top_k` returns the values and indices (class ids) of the top k predictions. So if k=3, for each sign, it'll return the 3 largest probabilities (out of 43) and the corresponding class ids.
 
 For the first image, the model is 100% sure that this is a traffic signal(probability of 1), and the image indeed is a traffic signal. And the other four softmax probabilities are close to 0. It is also the case for the other four new images I obtained from the web.
 
 ---
-
 ### Discussion
 
-* Pay attention to model underfitting and overfitting. Validataion set is used to check underfitting and overfitting. In this project, I used dropout method to reduce overfitting. There are many other methods as well, such as the L2 regularization. 
+* Paying extra attention to model underfitting and overfitting. Validation set is helpful in checking underfitting and overfitting. In this project, I used the dropout method to reduce overfitting. There are many other methods as well, such as L2 regularization.
+
+* I have these strategies in mind to improve the classification model. 1) experiment with different network architectures, or just change the dimensions of the LeNet layers; 2) add regularization features like drop out or L2 regularization to make sure the network doesn't overfit the training data; 3) tune the hyperparameters; 4) improve the data pre-processing with steps like normalization and setting a zero mean; 5) augment the training data by rotating or shifting images or by changing colors
 
 * CNN in machine learning is very good at image classification problems. This is more and more proven to be true in different applications. Compared with conventional computer vision methods, CNN shows its better adaptability and performance. Besides the LeNet-5 used in this project, other CNN architectures are worth trying for different tasks.
+
+---
+### References
+
+1. [German Traffic Sign Dataset](https://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
+2. Udacity Self-driving car Nanodegree
+3. [Dropout in (Deep) Machine learning](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
+4. [Convolutional Layer](https://databricks.com/glossary/convolutional-layer)
+5. [Activation Functions](https://medium.com/@himanshuxd/activation-functions-sigmoid-relu-leaky-relu-and-softmax-basics-for-neural-networks-and-deep-8d9c70eed91e)
+
