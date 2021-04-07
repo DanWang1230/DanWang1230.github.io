@@ -2,7 +2,7 @@
 
 The goals/steps of this project are the following:
 * The GitHub repo for this project can found [here](https://github.com/DanWang1230/Traffic_Sign_Classifier)
-* Load the data set
+* Load the data set of German traffic signs
 * Explore, summarize and visualize the data set
 * Design, train, and test a model architecture
 * Use the model to make predictions on new images
@@ -117,7 +117,7 @@ The model correctly guessed all the five traffic signs.
 
 #### 3. Determine how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction.
 
-The code for making predictions on my final model is located in the 19th cell of the notebook.
+The code for making predictions on my final model is located in the last two cells of the notebook.
 
 For the first image, the model is 100% sure that this is a traffic signal(probability of 1), and the image indeed is a traffic signal. And the other four softmax probabilities are close to 0. It is also the case for the other four new images I obtained from the web.
 
