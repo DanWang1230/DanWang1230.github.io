@@ -8,6 +8,8 @@ The goals/steps of this project are the following:
 * Use the model to make predictions on new images
 * Analyze the softmax probabilities of the new images
 
+The project is from the self-driving car nanodegree in Udacity. So are datasets.
+
 [//]: # (Image References)
 
 [image1]: ./images_traffic_sign_classifier/original_image.jpg
@@ -30,6 +32,7 @@ The goals/steps of this project are the following:
 * The size of the test set is 12630
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
+* No abnormalities is identified
 
 #### 2. Visualization of the dataset.
 
@@ -118,4 +121,6 @@ The code for making predictions on my final model is located in the 19th cell of
 
 For the first image, the model is 100% sure that this is a traffic signal(probability of 1), and the image indeed is a traffic signal. And the other four softmax probabilities are close to 0. It is also the case for the other four new images I obtained from the web.
 
+### Discussion
 
+CNN in machine learning is very good at image classification problems. This is more and more proven to be true in different applications. Compared with conventional computer vision methods, CNN shows its better adaptability and performance. Besides the LeNet-5 used in this project, other CNN architectures are worth trying for different tasks.
