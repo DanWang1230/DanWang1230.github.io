@@ -115,7 +115,7 @@ I did this in function `measure_curvature_real()` in the 2nd code cell of the IP
 
 I implemented this step in the 12th code cell of the IPython notebook.  Here is an example of my result on a test image:
 
-[![alt text][image10]](https://youtu.be/BisoW6Km2jo)
+![alt text][image10]
 
 ---
 
@@ -123,7 +123,9 @@ I implemented this step in the 12th code cell of the IPython notebook.  Here is 
 
 #### 1. Final video output.
 
-The video is located at test_videos_output/project_video_dw.mp4. Here's a [link to the file.](https://youtu.be/BisoW6Km2jo)
+The video is located at test_videos_output/project_video_dw.mp4.
+[![alt text](https://img.youtube.com/vi/BisoW6Km2jo/0.jpg)](https://youtu.be/BisoW6Km2jo)
+
 
 ---
 
