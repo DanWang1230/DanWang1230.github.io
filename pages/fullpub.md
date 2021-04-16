@@ -1,6 +1,6 @@
 ## Journal papers
 
-- **Wang, Dan**, Xinyu Zhao, and Xu Chen. "New Hammerstein Modeling and Analysis for Controlling Melt Pool Width in Powder Bed Fusion Additive Manufacturing." *ASME Letters in Dynamic Systems and Control* (accepted)
+- **Wang, Dan**, Xinyu Zhao, and Xu Chen. "New Hammerstein Modeling and Analysis for Controlling Melt Pool Width in Powder Bed Fusion Additive Manufacturing." *ASME Letters in Dynamic Systems and Control 1.3 (2021): 031012.
 - **Wang, Dan**, and Xu Chen. "Closed-loop High-fidelity Simulation Integrating Finite Element Modeling with Feedback Controls in Additive Manufacturing." *ASME Journal of Dynamic Systems, Measurement, and Control* 143.2 (2021).
 - **Wang, Dan**, and Xu Chen. "H∞-based selective inversion of nonminimum-phase systems for feedback controls." *IEEE/CAA Journal of Automatica Sinica* 7.3 (2020): 702-710.
 - **Wang, Dan**, Tianyu Jiang, and Xu Chen. "Control-oriented Modeling and Repetitive Control in In-layer and Cross-layer Thermal Interactions in Selective Laser Sintering." *ASME Letters in Dynamic Systems and Control* 1.1(2020): 011003.
