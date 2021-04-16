@@ -21,6 +21,8 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 [Traffic Sign Classifier](pages/traffic_sign_classifier.md)
 
+[Extended Kalman Filter in Perception and Sensor Fusion](pages/kalman_filter_perception.md)
+
 ### Data Science and Machine Learning
 
 [Clustering City Neighborhoods](pages/cluster_city_neighborhoods.md)
