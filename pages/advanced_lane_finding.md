@@ -124,7 +124,7 @@ I implemented this step in the 12th code cell of the IPython notebook.  Here is 
 #### 1. Final video output.
 
 The video is located at test_videos_output/project_video_dw.mp4.
-[![alt text](https://img.youtube.com/vi/BisoW6Km2jo/0.jpg)](https://youtu.be/BisoW6Km2jo)
+It is also uploaded to [YouTube](https://youtu.be/BisoW6Km2jo).
 
 
 ---
