@@ -115,7 +115,7 @@ I did this in function `measure_curvature_real()` in the 2nd code cell of the IP
 
 I implemented this step in the 12th code cell of the IPython notebook.  Here is an example of my result on a test image:
 
-![alt text][image10]
+[![alt text][image10]](https://youtu.be/BisoW6Km2jo)
 
 ---
 
