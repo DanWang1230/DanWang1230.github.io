@@ -10,13 +10,13 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ## Projects
 
-[Autonomous Driving and Robotics](pages/robot.md)
+[Autonomous Driving and Robotics](robot.md)
 
-[Deep Learning](pages/deep_learning.md)
+[Deep Learning](deep_learning.md)
 
-[Machine Learning](pages/machine_learning.md)
+[Machine Learning](machine_learning.md)
 
-[Artificial Intelligence](pages/artificial_intelligence.md)
+[Artificial Intelligence](artificial_intelligence.md)
 
 ## Selected Courses
 
