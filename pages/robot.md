@@ -2,7 +2,7 @@
 
 ## Perception
 
-[Finding Lane Lines](pages/Robot/finding_lane_lines.md) (Canny edge detection, Hough transform, OpenCV)
+[Finding Lane Lines](./pages/Robot/finding_lane_lines.md) (Canny edge detection, Hough transform, OpenCV)
 
 [Advanced Lane Finding](pages/Robot/advanced_lane_finding.md)
 
@@ -13,7 +13,6 @@
 [Extended Kalman Filter in Perception and Sensor Fusion](pages/Robot/kalman_filter_perception.md)
 
 ## Localization
-
 
 
 ## Motion planning
