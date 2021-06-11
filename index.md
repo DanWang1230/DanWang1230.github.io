@@ -10,7 +10,13 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ## Projects
 
-### Mobile Robotics and Self-driving Car
+### [Autonomous Driving and Robotics](pages/robot.md)
+
+### [Deep Learning](pages/deep_learning.md)
+
+### [Machine Learning](pages/machine_learning.md)
+
+### [Artificial Intelligence](pages/artificial_intelligence.md)
 
 [Finding Lane Lines](pages/finding_lane_lines.md) (Canny edge detection, Hough transform, OpenCV)
 
@@ -47,10 +53,6 @@ Self-driving Car Specialization (Coursera)
 Self-driving Car Nanodegree (Udacity)
 
 Robotics Nanodegree (Udacity)
-
-
-### Machine Learning and Statistcs
-
 
 ## Selected Publications
 
