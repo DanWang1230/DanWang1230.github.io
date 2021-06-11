@@ -30,14 +30,23 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ## Selected Courses
 
+Here is [my full course list](pages/fullcourse.md).
+
 CSE571 AI Based Mobile Robotics (UW)
 
 CSE315 Introduction to Artificial Intelligence (UW)
 
+Deep Learning Specialization (Coursera)
+
+Applied Data Science with Python Specialization (Coursera)
+
+IBM Data Science (Coursera)
+
 Self-driving Car Specialization (Coursera)
 
-Self-driving Car Specialization (Udacity)
+Self-driving Car Nanodegree (Udacity)
 
+Robotics Nanodegree (Udacity)
 
 
 ### Machine Learning and Statistcs
