@@ -8,7 +8,6 @@ M.S. in Mechanical Engineering, Tsinghua University, Beijing, China, June 2015, 
 
 B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012, GPA 3.7/4.0
 
-
 ## Projects
 
 ### Mobile Robotics and Self-driving Car
@@ -29,17 +28,16 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 [Seattle Sports: Seahawks, Mariners, Sounders FC, and Storm](pages/seattle_sports.md)
 
-## Courses
-
-### Mobile Robotics and Self-driving Car
+## Selected Courses
 
 CSE571 AI Based Mobile Robotics (UW)
+
+CSE315 Introduction to Artificial Intelligence (UW)
 
 Self-driving Car Specialization (Coursera)
 
 Self-driving Car Specialization (Udacity)
 
-Intro to Self-Driving Cars Nanodegree (Udacity)
 
 
 ### Machine Learning and Statistcs
