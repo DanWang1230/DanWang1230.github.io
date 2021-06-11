@@ -20,7 +20,7 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ## Selected Courses
 
-Here is [my full course list](pages/fullcourse.md).
+Please see [my full course list](pages/fullcourse.md) here.
 
 CSE571 AI Based Mobile Robotics (UW)
 
@@ -40,7 +40,7 @@ Robotics Nanodegree (Udacity)
 
 ## Selected Publications
 
-Here is [my full publication list](pages/fullpub.md).
+Please see [my full publication list](pages/fullpub.md) here.
 
 **Wang, Dan**, and Xu Chen. "Closed-Loop High-Fidelity Simulation Integrating Finite Element Modeling with Feedback Controls in Additive Manufacturing." *Journal of Dynamic Systems, Measurement, and Control* 143.2 (2021).
 
