@@ -18,22 +18,6 @@ B.S. in Mechanical Engineering, Shandong University, Shandong, China, June 2012,
 
 ### [Artificial Intelligence](pages/artificial_intelligence.md)
 
-[Finding Lane Lines](pages/finding_lane_lines.md) (Canny edge detection, Hough transform, OpenCV)
-
-[Advanced Lane Finding](pages/advanced_lane_finding.md)
-
-[Behavioral Cloning](pages/behavioral_cloning.md)
-
-[Traffic Sign Classifier](pages/traffic_sign_classifier.md)
-
-[Extended Kalman Filter in Perception and Sensor Fusion](pages/kalman_filter_perception.md)
-
-### Data Science and Machine Learning
-
-[Clustering City Neighborhoods](pages/cluster_city_neighborhoods.md)
-
-[Seattle Sports: Seahawks, Mariners, Sounders FC, and Storm](pages/seattle_sports.md)
-
 ## Selected Courses
 
 Here is [my full course list](pages/fullcourse.md).
