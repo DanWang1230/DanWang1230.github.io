@@ -4,15 +4,23 @@ CSE571 AI Based Mobile Robotics (UW)
 
 Self-driving Car Nanodegree (Udacity)
 
-Robotics Nanodegree (Udacity)
-
 Self-driving Car Specialization (Coursera)
+
+Robotics Nanodegree (Udacity)
 
 Introduction to Self-driving Car (Udacity)
 
 Introduction to Computer Vision (Udacity)
 
 Control of Mobile Robots (Coursera)
+
+Nonlinear Systems (UW)
+
+Adaptive and Optimal Controls (UConn)
+
+Digital Signal Processing (UConn)
+
+Theory and Design of Automatic Control (UConn)
 
 ## Artificial Intelligence
 
