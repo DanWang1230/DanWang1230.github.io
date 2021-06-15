@@ -4,7 +4,7 @@
 
 ### Linear Regression
 
-[Building a model to predict how many crew members a ship will need](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Linear_Regression/Linear_Regression_Consulting_Project_SOLUTIONS.ipynb)
+[Predicting how many crew members a ship will need](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Linear_Regression/Linear_Regression_Consulting_Project_SOLUTIONS.ipynb)
 
 
 ### Multiple Linear Regression
@@ -23,7 +23,7 @@
 
 ### Logistic Regression
 
-
+[Classifying whether or not a customer churned](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Logistic_Regression/Logistic_Regression_Consulting_Project_SOLUTIONS.ipynb)
 
 ### K-nearest Neighbors
 
