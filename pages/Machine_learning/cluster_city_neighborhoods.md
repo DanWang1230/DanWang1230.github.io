@@ -7,6 +7,8 @@ In the project, I'm clustering similar neighborhoods in two cities Toronto and N
 
 We will use our data science powers to consider various venue features when implementing the clustering algorithm.
 
+Relevant Github repos can be found in [here](https://github.com/DanWang1230/Capstone_project_W3/blob/master/Capstone_Project_W3.ipynb) and [here](https://github.com/DanWang1230/Data_Science/blob/master/DS0701EN-3-3-2-Neighborhoods-New-York-py-v2.0.ipynb).
+
 ## Data
 
 Based on our definition of the problems, the following data resources will be needed:

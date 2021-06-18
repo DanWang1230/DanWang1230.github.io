@@ -4,6 +4,8 @@
 
 ### Linear Regression
 
+[House Sales in King County, Seattle](https://github.com/DanWang1230/Data_Science/blob/master/House%20Sales_in_King_Count_USA.ipynb)
+
 [Estimating carbon dioxide emissions I](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-Simple-Linear-Regression-Co2-py-v1.ipynb)
 
 [Predicting how many crew members a ship will need](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Linear_Regression/Linear_Regression_Consulting_Project_SOLUTIONS.ipynb)
@@ -43,6 +45,8 @@
 
 [Classifying whether the cell samples are benign or malignant](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-SVM-cancer-py-v1.ipynb)
 
+[Comparing different classifiers by evaluating accuracy](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Proj-Loan-py-v1.ipynb)
+
 ## Clustering
 
 ### K-means
@@ -72,7 +76,12 @@
 
 ## Other Data Science Projects
 
+### Visulization
 [Seattle Sports: Seahawks, Mariners, Sounders FC, and Storm](pages/Machine_learning/seattle_sports.md)
+
+[US domestic airline flights performance](https://github.com/DanWang1230/Data_Science/blob/master/5_Peer_Graded_Assignment_Questions.ipynb)
+
+[Analyzing US Economic Data and Building a Dashboard](https://github.com/DanWang1230/Data_Science/blob/master/PY0101EN_Coursera_FinalAssignment.ipynb)
 
 ### NLP
 
