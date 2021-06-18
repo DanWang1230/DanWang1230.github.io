@@ -22,6 +22,8 @@
 
 [Fitting a non-linear model to China's GDP](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-NoneLinearRegression.ipynb)
 
+[Evaluation for classification and regression](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%203.ipynb)
+
 
 ## Classification
 
@@ -35,17 +37,24 @@
 
 [Using demographic data to predict usage patterns for a telecommunications provider](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-K-Nearest-neighbors-CustCat-py-v1.ipynb)
 
+[Fruit classifier](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%201.ipynb)
+
 ### Decision Trees
 
 [Predicting the class of a unknown patient, or finding a proper drug for a new patient](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-Decision-Trees-drug-py-v1.ipynb)
 
 [Which chemical is causing a dog food to spoil the most?](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Tree_Methods/Tree_Methods_Consulting_Project_SOLUTION.ipynb)
 
+[Understanding and Predicting Property Maintenance Fines](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Assignment%204.ipynb)
+
 ### SVM
 
 [Classifying whether the cell samples are benign or malignant](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-SVM-cancer-py-v1.ipynb)
 
 [Comparing different classifiers by evaluating accuracy](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Proj-Loan-py-v1.ipynb)
+
+Supervised learning: different methods [I](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%202.ipynb) and [II](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%204.ipynb)
+
 
 ## Clustering
 
@@ -61,9 +70,11 @@
 
 [Determining which existing vehicles on the market are most like the prototypes](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clus-Hierarchical-Cars-py-v1.ipynb)
 
-### Density-based
+### Density-based (DBSCN)
 
 [Clustering the location of weather stations in Canada](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clus-DBSCN-weather-py-v1.ipynb)
+
+[Unsupervised learning: different methods](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Unsupervised%20Learning.ipynb)
 
 ## Recommender Systems
 
@@ -83,7 +94,18 @@
 
 [Analyzing US Economic Data and Building a Dashboard](https://github.com/DanWang1230/Data_Science/blob/master/PY0101EN_Coursera_FinalAssignment.ipynb)
 
+[Plotting Weather Patterns](https://github.com/DanWang1230/Plotting_charting_data_representation_in_python/blob/master/Assignment2.ipynb)
+
+[Building a Custom Visualization](https://github.com/DanWang1230/Plotting_charting_data_representation_in_python/blob/master/Assignment3.ipynb)
+
 ### NLP
 
-[Building a spam filter using Naive Bayes classifier](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Natural_Language_Processing/NLP_Code_Along.ipynb)
+[Building a spam filter](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Assignment%203.ipynb)
+
+[Document Similarity & Topic Modelling](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Assignment%204.ipynb)
+
+[Sentiment Analysis](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Case%20Study%20-%20Sentiment%20Analysis.ipynb)
+
+
+[Another spam filter using Naive Bayes classifier](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Natural_Language_Processing/NLP_Code_Along.ipynb)
 
