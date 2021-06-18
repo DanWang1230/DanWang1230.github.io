@@ -41,6 +41,8 @@
 
 ### Decision Trees
 
+[Building a machine learning pipeline to categorize emergency messages](https://github.com/DanWang1230/Disaster_response_pipeline)
+
 [Predicting the class of a unknown patient, or finding a proper drug for a new patient](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-Decision-Trees-drug-py-v1.ipynb)
 
 [Which chemical is causing a dog food to spoil the most?](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Tree_Methods/Tree_Methods_Consulting_Project_SOLUTION.ipynb)
@@ -78,6 +80,8 @@ Supervised learning: different methods [I](https://github.com/DanWang1230/Applie
 
 ## Recommender Systems
 
+[Making recommendations to website users about new articles](https://github.com/DanWang1230/Recommendation_Engines/blob/master/Recommendations_with_IBM.ipynb)
+
 [Content-based Movie recommendation](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-RecSys-Content-Based-movies-py-v1.ipynb)
 
 [Movie recommendation based on collaborative filtering](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-RecSys-Collaborative-Filtering-movies-py-v1.ipynb)
@@ -106,6 +110,8 @@ Supervised learning: different methods [I](https://github.com/DanWang1230/Applie
 
 [Sentiment Analysis](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Case%20Study%20-%20Sentiment%20Analysis.ipynb)
 
-
 [Another spam filter using Naive Bayes classifier](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Natural_Language_Processing/NLP_Code_Along.ipynb)
 
+### Social Networks
+
+[Salary prediction and new connections prediction](https://github.com/DanWang1230/Applied-Social-Network-Analysis-in-Python/blob/master/Assignment%204.ipynb)
