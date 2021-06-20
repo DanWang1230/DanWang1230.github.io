@@ -14,4 +14,6 @@
 
 [Use word vector representations to build an Emojifier with LSTM](https://github.com/DanWang1230/deep_learning/blob/master/Sequence%20Model/Week%202/Emojify/Emojify_v2a.ipynb)
 
-[]()
+[Build a Neural Machine Translation model to translate human-readable dates into machine-readable ones](https://github.com/DanWang1230/deep_learning/blob/master/Sequence%20Model/Week%203/Machine%20Translation/Neural_machine_translation_with_attention_v4a.ipynb)
+
+[Trigger Word Detection: applying deep learning to speech recognition](https://github.com/DanWang1230/deep_learning/blob/master/Sequence%20Model/Week%203/Trigger%20word%20detection/Trigger_word_detection_v1a.ipynb)
