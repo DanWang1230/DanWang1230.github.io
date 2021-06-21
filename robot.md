@@ -1,5 +1,7 @@
 # **Autonomous Driving and Robotics Playground**
 
+[Programming a real self-driving car: implementing traffic light detection, control, and waypoint following in Carla](https://github.com/DanWang1230/Capstone_Programming_A_Self_Driving_Car)
+
 [Home Service Robot](https://github.com/DanWang1230/Home_Service_Robot)
 
 [Deep ensembles: learning the dynamics of a cartpole with uncertainty using machine learning](https://github.com/DanWang1230/Deep_Ensembles)
@@ -45,5 +47,3 @@
 [Self-Driving Vehicle Control](https://github.com/DanWang1230/Self-driving-car-specialization/tree/master/intro-self-driving-cars/Course1FinalProject)
 
 [PID Controller: implement a PID controller to maneuver the vehicle aound the lake race track](https://github.com/DanWang1230/PID_control)
-
-[Programming a real self-driving car: implementing traffic light detection, control, and waypoint following in Carla](https://github.com/DanWang1230/Capstone_Programming_A_Self_Driving_Car)
