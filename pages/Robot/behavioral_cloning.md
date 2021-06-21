@@ -1,4 +1,4 @@
-# Behavioral_Cloning
+# Behavioral Cloning
 
 The goals/steps of this project are the following:
 * The GitHub repo for this project can be found [here](https://github.com/DanWang1230/Behavioral_Cloning).

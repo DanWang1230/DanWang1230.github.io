@@ -34,6 +34,8 @@ Applied Data Science with Python Specialization (Coursera)
 
 Self-driving Car Nanodegree (Udacity)
 
+Data Structure and Algorithms (Coursera)
+
 ## Selected Publications
 
 Please see [my full publication list](pages/fullpub.md) here.
@@ -54,7 +56,8 @@ Please see [my full publication list](pages/fullpub.md) here.
 
 ## Honors
 
-- UW Comotion Innovation Gap Fund (F2020-Wang-8088, S2021-8088-Chen), Nov. 2020 and May 2021
+- UW Comotion Innovation Gap Fund (S2021-8088-Chen), May 2021
+- UW Comotion Innovation Gap Fund (F2020-Wang-8088), Nov. 2020
 - Best Paper Award Finalist in 2020 International Symposium on Flexible Automation, July 2020
 - Best Paper Award in 2018 International Symposium on Flexible Automation, June 2018
 - Outstanding Scholars Program Fellowships Award, 2015 – 2018
