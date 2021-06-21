@@ -34,11 +34,11 @@ Applied Data Science with Python Specialization (Coursera)
 
 Self-driving Car Nanodegree (Udacity)
 
-Robotics Nanodegree (Udacity)
-
 ## Selected Publications
 
 Please see [my full publication list](pages/fullpub.md) here.
+
+**Wang, Dan**, and Xu Chen. Closed-loop feedback for additive manufacturing simulation. PCT/US20/60465 (PCT application).
 
 **Wang, Dan**, and Xu Chen. "Closed-Loop High-Fidelity Simulation Integrating Finite Element Modeling with Feedback Controls in Additive Manufacturing." *Journal of Dynamic Systems, Measurement, and Control* 143.2 (2021).
 
@@ -51,3 +51,13 @@ Please see [my full publication list](pages/fullpub.md) here.
 **Wang, Dan**, and Xu Chen. "Synthesis and analysis of multirate repetitive control for fractional-order periodic disturbance rejection in powder bed fusion." *International Symposium on Flexible Automation*. IEEE, 2018. **Best Paper Award**
 
 **Wang, Dan**, Masayoshi Tomizuka, and Xu Chen. "Spectral distribution and implications of feedback regulation beyond Nyquist frequency." *International Symposium on Flexible Automation 2016.*
+
+## Honors
+
+- UW Comotion Innovation Gap Fund (F2020-Wang-8088, S2021-8088-Chen), Nov. 2020 and May 2021
+- Best Paper Award Finalist in 2020 International Symposium on Flexible Automation, July 2020
+- Best Paper Award in 2018 International Symposium on Flexible Automation, June 2018
+- Outstanding Scholars Program Fellowships Award, 2015 – 2018
+- First-class Scholarship of Tsinghua University, 2013, 2014
+- National Scholarship of China and First-class Scholarship of Shandong University, 2009 – 2011
+
