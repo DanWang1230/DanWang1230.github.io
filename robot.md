@@ -20,7 +20,7 @@
 
 [Traffic light classifier](https://github.com/DanWang1230/Traffic_light_classifier/blob/master/Traffic_Light_Classifier.ipynb)
 
-[]()
+[Environment Perception For Self-Driving Cars](https://github.com/DanWang1230/Self-driving-car-specialization/blob/master/visual-perception/module6/Environment%20Perception%20For%20Self-Driving%20Cars%20-%20Learner%20-%20v1.ipynb)
 
 []()
 
@@ -34,20 +34,11 @@
 
 []()
 
-## Motion planning
+## Motion Planning and Mapping
 
-[]()
+[Generating an occupancy grid using lidar scanner measurements](https://github.com/DanWang1230/Self-driving-car-specialization/blob/master/motion-planning/Module%202%20Graded%20Assessment/Module%202%20Assessment.ipynb)
 
-[]()
-
-[]()
-
-
-## Mapping
-
-[]()
-
-[]()
+[Implementing motion planner in Carla to avoid both static and dynamic obstacles](https://github.com/DanWang1230/Self-driving-car-specialization/tree/master/motion-planning/Course4FinalProject)
 
 []()
 
