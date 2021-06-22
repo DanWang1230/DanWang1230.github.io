@@ -6,17 +6,11 @@
 
 [House Sales in King County, Seattle](https://github.com/DanWang1230/Data_Science/blob/master/House%20Sales_in_King_Count_USA.ipynb)
 
-[Estimating carbon dioxide emissions I](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-Simple-Linear-Regression-Co2-py-v1.ipynb)
-
 [Predicting how many crew members a ship will need](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Linear_Regression/Linear_Regression_Consulting_Project_SOLUTIONS.ipynb)
 
 ### Polynomial Regression
 
-[Estimating carbon dioxide emissions II](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-Polynomial-Regression-Co2.ipynb)
-
-### Multiple Linear Regression
-
-[Estimating carbon dioxide emissions III](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-Mulitple-Linear-Regression-Co2-py-v1.ipynb)
+Estimating carbon dioxide emissions:  [linear regression](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-Simple-Linear-Regression-Co2-py-v1.ipynb), [polynomial regression](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-Polynomial-Regression-Co2.ipynb) and [multiple Linear Regression](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Reg-Mulitple-Linear-Regression-Co2-py-v1.ipynb)
 
 ### Nonlinear Regression
 
@@ -24,14 +18,11 @@
 
 [Evaluation for classification and regression](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%203.ipynb)
 
-
 ## Classification
 
 ### Logistic Regression
 
-[Classifying whether or not a customer churned](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-Logistic-Reg-churn-py-v1.ipynb)
-
-[Another example of customer churning](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Logistic_Regression/Logistic_Regression_Consulting_Project_SOLUTIONS.ipynb)
+Classifying whether or not a customer churned: [example 1](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-Logistic-Reg-churn-py-v1.ipynb) and [example 2](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Logistic_Regression/Logistic_Regression_Consulting_Project_SOLUTIONS.ipynb)
 
 ### K-nearest Neighbors
 
@@ -45,9 +36,9 @@
 
 [Predicting the class of a unknown patient, or finding a proper drug for a new patient](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clas-Decision-Trees-drug-py-v1.ipynb)
 
-[Which chemical is causing a dog food to spoil the most?](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Tree_Methods/Tree_Methods_Consulting_Project_SOLUTION.ipynb)
-
 [Understanding and Predicting Property Maintenance Fines](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Assignment%204.ipynb)
+
+[Which chemical is causing a dog food to spoil the most?](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Tree_Methods/Tree_Methods_Consulting_Project_SOLUTION.ipynb)
 
 ### SVM
 
@@ -55,7 +46,7 @@
 
 [Comparing different classifiers by evaluating accuracy](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Proj-Loan-py-v1.ipynb)
 
-Supervised learning: different methods [I](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%202.ipynb) and [II](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%204.ipynb)
+Supervised learning: [different methods I](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%202.ipynb) and [different methods II](https://github.com/DanWang1230/Applied_Machine_Learning_in_Python/blob/master/Module%204.ipynb)
 
 
 ## Clustering
@@ -104,13 +95,11 @@ Supervised learning: different methods [I](https://github.com/DanWang1230/Applie
 
 ### NLP
 
-[Building a spam filter](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Assignment%203.ipynb)
+[Building a spam filter](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Assignment%203.ipynb) and [another spam filter using Naive Bayes classifier](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Natural_Language_Processing/NLP_Code_Along.ipynb)
 
-[Document Similarity & Topic Modelling](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Assignment%204.ipynb)
+[Document Similarity & Topic Modeling](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Assignment%204.ipynb)
 
 [Sentiment Analysis](https://github.com/DanWang1230/Applied-Text-Mining-in-Python/blob/master/Case%20Study%20-%20Sentiment%20Analysis.ipynb)
-
-[Another spam filter using Naive Bayes classifier](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Natural_Language_Processing/NLP_Code_Along.ipynb)
 
 ### Social Networks
 
