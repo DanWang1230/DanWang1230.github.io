@@ -1,8 +1,8 @@
 # **Deep Learning Playground**
 
-[Hand signal classifer using ResNet](https://github.com/DanWang1230/deep_learning/blob/master/Convolutional%20Neural%20Networks/week2/ResNets/Residual_Networks_v2a.ipynb)
-
 [Building a car detection system using Yolo](https://github.com/DanWang1230/deep_learning/blob/master/Convolutional%20Neural%20Networks/week3/Car%20detection%20for%20Autonomous%20Driving/Autonomous_driving_application_Car_detection_v3a.ipynb)
+
+[Hand signal classifer using ResNet](https://github.com/DanWang1230/deep_learning/blob/master/Convolutional%20Neural%20Networks/week2/ResNets/Residual_Networks_v2a.ipynb)
 
 [Art generation with Neural Style Transfer (using transfer learning)](https://github.com/DanWang1230/deep_learning/blob/master/Convolutional%20Neural%20Networks/week4/Neural%20Style%20Transfer/Art_Generation_with_Neural_Style_Transfer_v3a.ipynb)
 

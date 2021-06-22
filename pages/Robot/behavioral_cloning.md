@@ -8,7 +8,6 @@ The goals/steps of this project are the following:
 * Test that the model successfully drives around track one without leaving the road
 * A video output can be found [here](https://youtu.be/t1qFLgl_1zs).
 
-
 [//]: # (Image References)
 
 [image1]: ./images_behaviorla_cloning/1.jpg "center"

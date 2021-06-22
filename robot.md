@@ -34,13 +34,13 @@
 
 ## Motion Planning and Mapping
 
-[Motion planning: A star, RRT, and RRT star](https://github.com/DanWang1230/AI_based_mobile_robotics/tree/master/Homework%203)
-
-[Generating an occupancy grid using lidar scanner measurements](https://github.com/DanWang1230/Self-driving-car-specialization/blob/master/motion-planning/Module%202%20Graded%20Assessment/Module%202%20Assessment.ipynb)
+[High-way driving: safely navigate a highway with other cars using path planner](pages/Robot/highway_driving.md)
 
 [Implementing motion planner in Carla to avoid both static and dynamic obstacles](https://github.com/DanWang1230/Self-driving-car-specialization/tree/master/motion-planning/Course4FinalProject)
 
-[High-way driving: safely navigate a highway with other cars using path planner](pages/Robot/highway_driving.md)
+[Motion planning: A star, RRT, and RRT star](https://github.com/DanWang1230/AI_based_mobile_robotics/tree/master/Homework%203)
+
+[Generating an occupancy grid using lidar scanner measurements](https://github.com/DanWang1230/Self-driving-car-specialization/blob/master/motion-planning/Module%202%20Graded%20Assessment/Module%202%20Assessment.ipynb)
 
 ## Control
 
