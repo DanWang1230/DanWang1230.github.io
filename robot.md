@@ -24,11 +24,11 @@
 
 ## Localization
 
+[Visual Odometry for Localization in Autonomous Driving](https://github.com/DanWang1230/Self-driving-car-specialization/blob/master/visual-perception/module2/Visual%20Odometry%20for%20Localization%20in%20Autonomous%20Driving.ipynb)
+
 [EKF and Particle Filter for Localization](https://github.com/DanWang1230/AI_based_mobile_robotics/tree/master/Homework%202)
 
 [Vehicle State Estimation on a Roadway](https://github.com/DanWang1230/Self-driving-car-specialization/tree/master/state-estimation-localization/Final_project_Vehicle_state_estimation_on_a_roadway)
-
-[Visual Odometry for Localization in Autonomous Driving](https://github.com/DanWang1230/Self-driving-car-specialization/blob/master/visual-perception/module2/Visual%20Odometry%20for%20Localization%20in%20Autonomous%20Driving.ipynb)
 
 [Kidnapped Vehicle: building a particle filter to localize a vehicle](https://github.com/DanWang1230/Kidnapped_Vehicle)
 
@@ -40,7 +40,7 @@
 
 [Implementing motion planner in Carla to avoid both static and dynamic obstacles](https://github.com/DanWang1230/Self-driving-car-specialization/tree/master/motion-planning/Course4FinalProject)
 
-[High-way driving: safely navigate a highway with other cars using path planner](https://github.com/DanWang1230/Highway_driving)
+[High-way driving: safely navigate a highway with other cars using path planner](pages/Robot/highway_driving.md)
 
 ## Control
 
