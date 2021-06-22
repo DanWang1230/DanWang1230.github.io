@@ -88,8 +88,8 @@ Supervised learning: [different methods I](https://github.com/DanWang1230/Applie
 [US domestic airline flights performance](https://github.com/DanWang1230/Data_Science/blob/master/5_Peer_Graded_Assignment_Questions.ipynb)
 
 [Analyzing US Economic Data and Building a Dashboard](https://github.com/DanWang1230/Data_Science/blob/master/PY0101EN_Coursera_FinalAssignment.ipynb)
-
-[Plotting Weather Patterns](https://github.com/DanWang1230/Plotting_charting_data_representation_in_python/blob/master/Assignment2.ipynb)
+<!-- 
+[Plotting Weather Patterns](https://github.com/DanWang1230/Plotting_charting_data_representation_in_python/blob/master/Assignment2.ipynb) -->
 
 [Building a Custom Visualization](https://github.com/DanWang1230/Plotting_charting_data_representation_in_python/blob/master/Assignment3.ipynb)
 
