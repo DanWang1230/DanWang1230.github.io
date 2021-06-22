@@ -54,3 +54,5 @@ Data Structure and Algorithms (Coursera)
 
 C++ for Programmers (Udacity)
 
+C Language Programming (Shandong U)
+

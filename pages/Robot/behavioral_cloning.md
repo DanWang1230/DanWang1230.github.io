@@ -110,7 +110,7 @@ I then took advantage of the left and right cameras. A correction factor of 0.2 
 ![alt text][image1]
 ![alt text][image4]
 
-To augment the data sat, I also flipped images and angles, thinking that this would generalize the data set. For example, here is an image that has then been flipped:
+To augment the data set, I also flipped images and angles, thinking that this would generalize the data set. For example, here is an image that has then been flipped:
 
 ![alt text][image1]
 ![alt text][image2]
