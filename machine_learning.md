@@ -55,6 +55,8 @@ Supervised learning: [different methods I](https://github.com/DanWang1230/Applie
 
 [Clustering City Neighborhoods](pages/Machine_learning/cluster_city_neighborhoods.md)
 
+[The Battle of the Neighborhoods](https://github.com/DanWang1230/Data_Science/blob/master/Capstone_The-Battle-of-the-Neighborhoods.ipynb)
+
 [Customer Segmentation with K-Means](https://github.com/DanWang1230/Data_Science/blob/master/ML0101EN-Clus-K-Means-Customer-Seg-py-v1.ipynb)
 
 [Two or three hackers in a cyber attack](https://github.com/DanWang1230/Python_and_Spark_for_Big_Data/blob/master/Clustering/Clustering_Consulting_Project_SOLUTIONS.ipynb)
